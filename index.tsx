@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useAccount } from '@starknet-react/core';
-import { commitBid } from '@/lib/starkseal';
-import { pedersenHash } from '@/lib/pedersen';
+import { commitBid } from '@/starkseal';
+import { pedersenHash } from '@/pedersen';
 
 // For demo, use a fixed auctionId (should be dynamic in real app)
 const AUCTION_ID = '1';
@@ -45,3 +45,4 @@ export default function CommitPage() {
         </form>
     );
 }
+
