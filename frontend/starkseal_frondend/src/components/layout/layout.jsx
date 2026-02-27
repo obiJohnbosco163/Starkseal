@@ -4,7 +4,7 @@ import Footer from "./footer";
 import { Contract, RpcProvider } from "starknet";
 import { ABI } from "../../assets/ABI";
 import { connect } from "get-starknet";
-
+//start
 export default function Layout() {
   const CONTRACT_ADDRESS =
     "0x03e915de50fe62d90305e41fa31d7eff8c005244311c1253dae9d74af88df1e1";
